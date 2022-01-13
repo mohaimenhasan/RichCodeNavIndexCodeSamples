@@ -15,7 +15,7 @@ schedules:
   always: true
 
 queue:
-  name: Hosted VS2017
+  name: Hosted Windows 2019 with VS2019
   timeoutInMinutes: 60
 
 steps:
@@ -27,9 +27,8 @@ steps:
 - task: MS-RichCodeNav.Indexer.build-task.RichCodeNavIndexer@0
   displayName: Rich Code Navigation Upload to Staging
   inputs:
-    serviceConnection: 'richCodeNav-Token-Int'
     languages: 'csharp,typescript,java,cpp'
-    githubServiceConnection: 'xuachen'
+    githubServiceConnection: 'jepetty'
     environment: staging
     isPrivateFeed: false
   continueOnError: true
