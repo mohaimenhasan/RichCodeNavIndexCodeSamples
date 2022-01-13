@@ -27,7 +27,6 @@ steps:
 - task: MS-RichCodeNav.Indexer.build-task.RichCodeNavIndexer@0
   displayName: Rich Code Navigation Upload to Development
   inputs:
-    serviceConnection: 'richCodeNav-Token-Dev'
     languages: 'csharp,typescript,java,cpp'
     githubServiceConnection: 'jepetty'
     nugetFeed: 'https://devdiv.pkgs.visualstudio.com/Personal/_packaging/richnav/nuget/v3/index.json'
