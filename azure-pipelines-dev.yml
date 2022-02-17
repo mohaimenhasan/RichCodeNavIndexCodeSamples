@@ -14,9 +14,10 @@ schedules:
     - main
   always: true
 
-queue:
-  name: Hosted Windows 2019 with VS2019
-  timeoutInMinutes: 60
+pool:
+  name: AzurePipelines-EO
+  demands:
+  - ImageOverride -equals AzurePipelinesWindows2019compliant
 
 steps:
 - task: NodeTool@0
