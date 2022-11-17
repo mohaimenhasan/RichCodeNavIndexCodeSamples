@@ -30,7 +30,7 @@ steps:
   inputs:
     languages: 'csharp,typescript,java,cpp'
     githubServiceConnection: 'jepetty'
-    environment: staging
+    environment: internal
     isPrivateFeed: false
   continueOnError: true
 
