@@ -29,8 +29,8 @@ steps:
   displayName: Rich Code Navigation Upload to Staging
   inputs:
     languages: 'csharp,typescript,java,cpp'
-    githubServiceConnection: 'jepetty'
+    githubServiceConnection: 'mohaimenhasan'
     environment: internal
     isPrivateFeed: false
-  continueOnError: true
+  continueOnError: false
 
