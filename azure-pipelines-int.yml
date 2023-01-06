@@ -23,7 +23,7 @@ steps:
   inputs:
     versionSpec: 10.x
 
-- task: MS-RichCodeNav.Indexer.build-task.RichCodeNavIndexer@0
+- task: RichCodeNavIndexer@0
   displayName: Rich Code Navigation Upload to Staging
   inputs:
     languages: 'csharp,typescript,java,cpp'
