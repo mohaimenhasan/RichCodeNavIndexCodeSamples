@@ -29,7 +29,7 @@ steps:
   displayName: Rich Code Navigation Upload to Development
   inputs:
     languages: 'csharp,typescript,java,cpp'
-    githubServiceConnection: 'jepetty'
+    githubServiceConnection: 'mohaimenhasan'
     nugetFeed: 'https://devdiv.pkgs.visualstudio.com/Personal/_packaging/richnav/nuget/v3/index.json'
     isPrivateFeed: true
     nugetVersion: '0.1.2255-alpha'
