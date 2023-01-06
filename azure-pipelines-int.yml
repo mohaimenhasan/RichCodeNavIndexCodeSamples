@@ -15,9 +15,7 @@ schedules:
   always: true
 
 pool:
-  name: AzurePipelines-EO
-  demands:
-  - ImageOverride -equals AzurePipelinesWindows2019compliant
+  vmImage: windows-latest
 
 steps:
 - task: NodeTool@0
