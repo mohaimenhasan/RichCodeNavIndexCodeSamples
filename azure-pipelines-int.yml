@@ -19,9 +19,9 @@ pool:
 
 steps:
 - task: NodeTool@0
-  displayName: 'Use Node 10.x'
+  displayName: 'Use Node 16.x'
   inputs:
-    versionSpec: 10.x
+    versionSpec: 16.x
 
 - task: RichCodeNavIndexer@0
   displayName: Rich Code Navigation Upload to Staging
@@ -29,6 +29,6 @@ steps:
     languages: 'csharp,typescript,java,cpp'
     githubServiceConnection: 'mohaimenhasan'
     environment: internal
-    isPrivateFeed: false
+    #isPrivateFeed: false
   continueOnError: false
 
