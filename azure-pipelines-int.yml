@@ -3,7 +3,8 @@ variables:
   CodeIndex.Debug: true
   CodeIndex.Enabled: true
   CodeIndex.Languages: 'csharp,typescript,java,cpp'
-
+  system.debugContext: true
+  
 trigger:
   branches:
     include: ["main", "*"]
