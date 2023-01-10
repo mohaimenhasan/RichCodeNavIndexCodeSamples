@@ -1,5 +1,7 @@
 # Runs weekly or after every push to all branches to validate indexing against staging/production environments
-
+variables:
+  CodeIndex.Debug: true
+  
 trigger:
   branches:
     include: ["main", "*"]
