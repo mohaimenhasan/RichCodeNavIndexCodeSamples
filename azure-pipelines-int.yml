@@ -1,9 +1,9 @@
 # Runs weekly or after every push to all branches to validate indexing against staging/production environments
-variables:
-  CodeIndex.Debug: true
-  CodeIndex.Enabled: true
-  CodeIndex.Languages: 'csharp,typescript,java,cpp'
-  system.debugContext: true
+# variables:
+  # CodeIndex.Debug: true
+  # CodeIndex.Enabled: true
+  # CodeIndex.Languages: 'csharp,typescript,java,cpp'
+  # system.debugContext: true
   
 trigger:
   branches:
@@ -28,12 +28,12 @@ steps:
   inputs:
     versionSpec: 16.x
 
-#- task: RichCodeNavIndexer@0
-  #displayName: Rich Code Navigation Upload to Staging
-  #inputs:
-    #languages: 'csharp,typescript,java,cpp'
-    #githubServiceConnection: 'mohaimenhasan'
-    #environment: internal
-    #isPrivateFeed: false
-  #continueOnError: false
+- task: RichCodeNavIndexer@0
+  displayName: Rich Code Navigation Upload to Staging
+  inputs:
+    languages: 'csharp,typescript,java,cpp'
+    githubServiceConnection: 'mohaimenhasan'
+    environment: internal
+    isPrivateFeed: false
+  continueOnError: false
 
