@@ -32,7 +32,7 @@ steps:
   displayName: Rich Code Navigation Upload to Staging
   inputs:
     languages: 'csharp,typescript,java,cpp'
-    githubServiceConnection: 'mohaimenhasan'
+    #githubServiceConnection: 'mohaimenhasan'
     environment: internal
     isPrivateFeed: false
   continueOnError: false
