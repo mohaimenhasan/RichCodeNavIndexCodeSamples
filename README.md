@@ -8,14 +8,8 @@ This is a sample code base used to validate Rich Code Nav indexing against DEV, 
 1. Use the [Rich Nav chrome extension](https://chrome.google.com/webstore/detail/intellinav/dpafdcoicfffinjoondenocgljiaepfj) to validate code navigation on the commit that was indexed against the target environment.
 
 ## Build Status
-### DEV
-
-[![Build Status](https://devdiv.visualstudio.com/Personal/_apis/build/status/RichNavIndexCodeSamples/RichNavIndex-GitHub-DEV?branchName=main)](https://devdiv.visualstudio.com/Personal/_build/latest?definitionId=12798&branchName=main)
 
 ### INT
 
-[![Build Status](https://devdiv.visualstudio.com/Personal/_apis/build/status/RichNavIndexCodeSamples/RichNavIndex-GitHub-INT?branchName=main)](https://devdiv.visualstudio.com/Personal/_build/latest?definitionId=12796&branchName=main)
+[![Build Status](https://devdiv.visualstudio.com/mdmkhan/_apis/build/status/RichNavTesting/mohaimenhasan.RichCodeNavIndexCodeSamples?branchName=main)](https://devdiv.visualstudio.com/mdmkhan/_build/latest?definitionId=12796&branchName=main)
 
-### PROD
-
-[![Build Status](https://devdiv.visualstudio.com/Personal/_apis/build/status/RichNavIndexCodeSamples/RichNavIndex-GitHub-PROD?branchName=main)](https://devdiv.visualstudio.com/Personal/_build/latest?definitionId=12797&branchName=main)
